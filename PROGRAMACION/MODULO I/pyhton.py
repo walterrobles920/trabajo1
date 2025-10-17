@@ -1,0 +1,5 @@
+nombre = input("ingrese un nombre")
+print ("en minuscula: ", nombre.lower())
+print ("en mayuscula: ", nombre.upper())
+print ("En titulo: ",nombre.title()) 
+print ("primera letra en mayuscula: ",nombre.capitalize()) 

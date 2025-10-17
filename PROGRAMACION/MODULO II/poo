@@ -1,0 +1,10 @@
+class Persona:
+  def_init_: (self, nombre, edad):
+  self.nombre = nombre           #atributo de clase
+  self.edad= edad                #atributo de clase
+
+def saludar(self):               #metodo de clase
+  print(f"Hola,soy {self.nombre}")
+
+  persona1 = persona ("juan", 30)
+  persona1.saludar()

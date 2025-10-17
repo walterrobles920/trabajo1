@@ -1,0 +1,19 @@
+"""Escribir un programa que pregunte al usuario su nombre, edad, direccion y telefono y
+lo guarde en un diccionario.despues debe mostrar en pantalla el mensaje <nombre> 
+tiene <edad> años, vive en <direccio> y su numero de telefono es <telefono>"""
+
+info = {}
+nombre = input("¿cual es tu nombre?"),
+edad = input("¿Cual es tu edad?"),
+direccion = input("¿Cual es tu direccion?"),
+tel = input("¿Cual es tu numero de telefono?")
+
+info = {
+    "nombre":nombre,
+    "edad":edad,
+    "direccion":direccion,
+    "telefono":tel
+
+}
+print(f"{info [nombre]})
+##print (f"{info["nombre"]} tiene{info["edad"]}años, vive en {info["direccion"]}, y su numero de telefono es.")
